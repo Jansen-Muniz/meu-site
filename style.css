@@ -1,0 +1,45 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.main-content{
+  background-color: black;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+}
+
+header > h1 > img{
+  width: 15rem;
+}
+
+nav{
+  display: flex;  
+}
+
+nav > li{  
+  font-size: 1.2rem;
+  color: aquamarine;
+  list-style-type: none;
+  margin-left: 4rem;
+}
+
+main{
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+article h1{
+  color: white;
+}
+
+article p{
+  color: white;
+}
+
+
